@@ -35,7 +35,8 @@ namespace association
         }
         public List<Grade> getAverage()
         {
-            return Math.Round(Convert.ToDouble);
+            double average = grades.Average();
+            return grades;
         }
 
     }

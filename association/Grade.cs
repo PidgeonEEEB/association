@@ -8,6 +8,5 @@ namespace association
 {
     internal class Grade
     {
-        public int grade = 1;
     }
 }
