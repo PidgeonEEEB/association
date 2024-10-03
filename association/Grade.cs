@@ -8,5 +8,6 @@ namespace association
 {
     internal class Grade
     {
+        public List<int> Grades = new List<int>();
     }
 }

@@ -33,9 +33,10 @@ namespace association
         {   
             return grades;
         }
-        public List<Grade> getAverage()
+        public double getAverage()
         {
-            double average = grades.Average();
+            //fuck this poop
+            double average = Grade.Average();
             return grades;
         }
 
